@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C029FE26550504004309EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C029FD26550504004309EA /* AppDelegate.swift */; };
+		01C02A0026550504004309EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C029FF26550504004309EA /* SceneDelegate.swift */; };
+		01C02A0226550504004309EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C02A0126550504004309EA /* ViewController.swift */; };
+		01C02A0526550504004309EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C02A0326550504004309EA /* Main.storyboard */; };
+		01C02A0826550504004309EA /* DepositCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01C02A0626550504004309EA /* DepositCalculator.xcdatamodeld */; };
+		01C02A0A26550505004309EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C02A0926550505004309EA /* Assets.xcassets */; };
+		01C02A0D26550505004309EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C02A0B26550505004309EA /* LaunchScreen.storyboard */; };
+		01C02A1826550505004309EA /* DepositCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C02A1726550505004309EA /* DepositCalculatorTests.swift */; };
+		01C02A2326550505004309EA /* DepositCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C02A2226550505004309EA /* DepositCalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01C02A1426550505004309EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C029F226550504004309EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C029F926550504004309EA;
+			remoteInfo = DepositCalculator;
+		};
+		01C02A1F26550505004309EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C029F226550504004309EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C029F926550504004309EA;
+			remoteInfo = DepositCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C029FA26550504004309EA /* DepositCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepositCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C029FD26550504004309EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01C029FF26550504004309EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01C02A0126550504004309EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01C02A0426550504004309EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01C02A0726550504004309EA /* DepositCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepositCalculator.xcdatamodel; sourceTree = "<group>"; };
+		01C02A0926550505004309EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01C02A0C26550505004309EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01C02A0E26550505004309EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C02A1326550505004309EA /* DepositCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C02A1726550505004309EA /* DepositCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositCalculatorTests.swift; sourceTree = "<group>"; };
+		01C02A1926550505004309EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C02A1E26550505004309EA /* DepositCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C02A2226550505004309EA /* DepositCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositCalculatorUITests.swift; sourceTree = "<group>"; };
+		01C02A2426550505004309EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C029F726550504004309EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C02A1026550505004309EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C02A1B26550505004309EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C029F126550504004309EA = {
+			isa = PBXGroup;
+			children = (
+				01C029FC26550504004309EA /* DepositCalculator */,
+				01C02A1626550505004309EA /* DepositCalculatorTests */,
+				01C02A2126550505004309EA /* DepositCalculatorUITests */,
+				01C029FB26550504004309EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01C029FB26550504004309EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01C029FA26550504004309EA /* DepositCalculator.app */,
+				01C02A1326550505004309EA /* DepositCalculatorTests.xctest */,
+				01C02A1E26550505004309EA /* DepositCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01C029FC26550504004309EA /* DepositCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				01C029FD26550504004309EA /* AppDelegate.swift */,
+				01C029FF26550504004309EA /* SceneDelegate.swift */,
+				01C02A0126550504004309EA /* ViewController.swift */,
+				01C02A0326550504004309EA /* Main.storyboard */,
+				01C02A0926550505004309EA /* Assets.xcassets */,
+				01C02A0B26550505004309EA /* LaunchScreen.storyboard */,
+				01C02A0E26550505004309EA /* Info.plist */,
+				01C02A0626550504004309EA /* DepositCalculator.xcdatamodeld */,
+			);
+			path = DepositCalculator;
+			sourceTree = "<group>";
+		};
+		01C02A1626550505004309EA /* DepositCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				01C02A1726550505004309EA /* DepositCalculatorTests.swift */,
+				01C02A1926550505004309EA /* Info.plist */,
+			);
+			path = DepositCalculatorTests;
+			sourceTree = "<group>";
+		};
+		01C02A2126550505004309EA /* DepositCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01C02A2226550505004309EA /* DepositCalculatorUITests.swift */,
+				01C02A2426550505004309EA /* Info.plist */,
+			);
+			path = DepositCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C029F926550504004309EA /* DepositCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C02A2726550505004309EA /* Build configuration list for PBXNativeTarget "DepositCalculator" */;
+			buildPhases = (
+				01C029F626550504004309EA /* Sources */,
+				01C029F726550504004309EA /* Frameworks */,
+				01C029F826550504004309EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepositCalculator;
+			productName = DepositCalculator;
+			productReference = 01C029FA26550504004309EA /* DepositCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01C02A1226550505004309EA /* DepositCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C02A2A26550505004309EA /* Build configuration list for PBXNativeTarget "DepositCalculatorTests" */;
+			buildPhases = (
+				01C02A0F26550505004309EA /* Sources */,
+				01C02A1026550505004309EA /* Frameworks */,
+				01C02A1126550505004309EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C02A1526550505004309EA /* PBXTargetDependency */,
+			);
+			name = DepositCalculatorTests;
+			productName = DepositCalculatorTests;
+			productReference = 01C02A1326550505004309EA /* DepositCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01C02A1D26550505004309EA /* DepositCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C02A2D26550505004309EA /* Build configuration list for PBXNativeTarget "DepositCalculatorUITests" */;
+			buildPhases = (
+				01C02A1A26550505004309EA /* Sources */,
+				01C02A1B26550505004309EA /* Frameworks */,
+				01C02A1C26550505004309EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C02A2026550505004309EA /* PBXTargetDependency */,
+			);
+			name = DepositCalculatorUITests;
+			productName = DepositCalculatorUITests;
+			productReference = 01C02A1E26550505004309EA /* DepositCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01C029F226550504004309EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					01C029F926550504004309EA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					01C02A1226550505004309EA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 01C029F926550504004309EA;
+					};
+					01C02A1D26550505004309EA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 01C029F926550504004309EA;
+					};
+				};
+			};
+			buildConfigurationList = 01C029F526550504004309EA /* Build configuration list for PBXProject "DepositCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01C029F126550504004309EA;
+			productRefGroup = 01C029FB26550504004309EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C029F926550504004309EA /* DepositCalculator */,
+				01C02A1226550505004309EA /* DepositCalculatorTests */,
+				01C02A1D26550505004309EA /* DepositCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01C029F826550504004309EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C02A0D26550505004309EA /* LaunchScreen.storyboard in Resources */,
+				01C02A0A26550505004309EA /* Assets.xcassets in Resources */,
+				01C02A0526550504004309EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C02A1126550505004309EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C02A1C26550505004309EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C029F626550504004309EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C02A0826550504004309EA /* DepositCalculator.xcdatamodeld in Sources */,
+				01C02A0226550504004309EA /* ViewController.swift in Sources */,
+				01C029FE26550504004309EA /* AppDelegate.swift in Sources */,
+				01C02A0026550504004309EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C02A0F26550505004309EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C02A1826550505004309EA /* DepositCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C02A1A26550505004309EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C02A2326550505004309EA /* DepositCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01C02A1526550505004309EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C029F926550504004309EA /* DepositCalculator */;
+			targetProxy = 01C02A1426550505004309EA /* PBXContainerItemProxy */;
+		};
+		01C02A2026550505004309EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C029F926550504004309EA /* DepositCalculator */;
+			targetProxy = 01C02A1F26550505004309EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01C02A0326550504004309EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C02A0426550504004309EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01C02A0B26550505004309EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C02A0C26550505004309EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01C02A2526550505004309EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01C02A2626550505004309EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01C02A2826550505004309EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVU938R64K;
+				INFOPLIST_FILE = DepositCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-545.DepositCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01C02A2926550505004309EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVU938R64K;
+				INFOPLIST_FILE = DepositCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-545.DepositCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01C02A2B26550505004309EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVU938R64K;
+				INFOPLIST_FILE = DepositCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-545.DepositCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepositCalculator.app/DepositCalculator";
+			};
+			name = Debug;
+		};
+		01C02A2C26550505004309EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVU938R64K;
+				INFOPLIST_FILE = DepositCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-545.DepositCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepositCalculator.app/DepositCalculator";
+			};
+			name = Release;
+		};
+		01C02A2E26550505004309EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVU938R64K;
+				INFOPLIST_FILE = DepositCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-545.DepositCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepositCalculator;
+			};
+			name = Debug;
+		};
+		01C02A2F26550505004309EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MVU938R64K;
+				INFOPLIST_FILE = DepositCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-545.DepositCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DepositCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C029F526550504004309EA /* Build configuration list for PBXProject "DepositCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C02A2526550505004309EA /* Debug */,
+				01C02A2626550505004309EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C02A2726550505004309EA /* Build configuration list for PBXNativeTarget "DepositCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C02A2826550505004309EA /* Debug */,
+				01C02A2926550505004309EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C02A2A26550505004309EA /* Build configuration list for PBXNativeTarget "DepositCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C02A2B26550505004309EA /* Debug */,
+				01C02A2C26550505004309EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01C02A2D26550505004309EA /* Build configuration list for PBXNativeTarget "DepositCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C02A2E26550505004309EA /* Debug */,
+				01C02A2F26550505004309EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01C02A0626550504004309EA /* DepositCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01C02A0726550504004309EA /* DepositCalculator.xcdatamodel */,
+			);
+			currentVersion = 01C02A0726550504004309EA /* DepositCalculator.xcdatamodel */;
+			path = DepositCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01C029F226550504004309EA /* Project object */;
+}
